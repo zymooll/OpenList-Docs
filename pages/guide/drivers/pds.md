@@ -236,11 +236,11 @@ Usually `Bearer`. Keep the value returned by the token page.
 ### Expires At { lang="zh-CN" }
 
 ::: en
-Unix timestamp in seconds. If unknown, fill in `0`; when `refresh_token` exists, OpenList will refresh the token when needed.
+Unix timestamp in seconds. Highly recommand fill in `0`; when `refresh_token` exists, OpenList will refresh the token when needed.
 :::
 
 ::: zh-CN
-单位为秒的 Unix 时间戳。如果不确定，可以填写 `0`；存在 `refresh_token` 时，OpenList 会在需要时刷新令牌。
+单位为秒的 Unix 时间戳。强烈建议填写 `0`；存在 `refresh_token` 时，OpenList 会在需要时刷新令牌。
 :::
 
 ## 4. Supported Operations { lang="en" }
